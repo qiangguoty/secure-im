@@ -1,0 +1,27 @@
+Usage:
+0. Build
+$ make
+
+1. Client side:
+	a. Launch application
+	$ java ClientConsole
+	b. Login
+	Enter username and password after prompt to login.
+	c. Send message
+	$ send <username> <message>
+	d. Get a list of all commands
+	$ help
+	e. Exit
+	$ exit
+
+2. Server side:
+	a. Launch server
+	$ java ServerConsole
+	b. Use master key as password to login.
+
+3. Default user name:passwords:
+	u0:p0
+	u1:p1
+	u2:p2
+	...
+	u9:p9
